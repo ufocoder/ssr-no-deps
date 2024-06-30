@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SSR with min deps</title>
+    <link href="/client/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="content">
+
+        <div>
+            pathname: <%- pathname %>
+            <nav>
+                <ul>
+                    <li><a href="/">homepage</a></li>
+                    <li><a href="/about">about</a></li>
+                    <li><a href="/youtube/xzQjtkhPMdY">youtube</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <div id="container"><%- content %></div>
+    </div>
+    <script type="module" src="/client/app/index.js"></script>
+</body>
+</html>

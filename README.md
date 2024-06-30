@@ -1,0 +1,1 @@
+Server-side rendering implementation on JavaScript without dependencies on the client and minimum dependencies on the server

@@ -1,0 +1,21 @@
+{
+  "name": "ssr-min-deps",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon ./server/index.js localhost 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.4",
+    "@fastify/view": "^9.1.0",
+    "ejs": "^3.1.10",
+    "fastify": "^4.28.1",
+    "jsdom": "^24.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
